@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type"
+	content="application/xhtml+xml; charset=UTF-8" />
+<title>Trusted Initializer</title>
+<link rel="stylesheet" href="index.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="serviceCaller.js"></script>
+</head>
+
+<body>
+	<div class="serviceTitle">Trusted Initializer</div>
+
+	<div class="registrationMainPanel">
+		<div class="topPanel">
+			<h1>Share Request</h1>
+		</div>
+		<hr>
+		<div class="bottomPanel">
+			<div class="leftPanel" id="infoPanel">
+				<label id="usernameLabel">Partner's username:</label><br> <input id="sharePartnerUsernameField"
+					type="text" name="partnerUsername" required><br>
+				<label id="fieldLabel">Field:</label><br> <input id="shareFieldField" type="text" name="field"
+					required><br>
+				<button id="requestButton" onclick="requestShare()">Request</button>
+				<br>
+				<label id="errorLabel"></label>
+			</div>
+			<div class="registrationVerticalDivider"></div>
+			<div class="rightPanel">
+				In order to request for a share, you will need your partner's username and a field.<br>
+				
+				After requesting for a share, you will get 3 numbers (u,v,w).<br>
+				<br> <br> <a href="index.html" style="float: right; margin-top: 1em">Logout</a>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

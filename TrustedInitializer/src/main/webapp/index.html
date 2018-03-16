@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type"
+	content="application/xhtml+xml; charset=UTF-8" />
+<title>Trusted Initializer</title>
+<link rel="stylesheet" href="index.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="serviceCaller.js"></script>
+</head>
+
+<body>
+	<div class="serviceTitle">Trusted Initializer</div>
+
+	<div class="loginMainPanel">
+		<div class="topPanel">
+			<h1>Login</h1>
+		</div>
+		<hr>
+		<div class="bottomPanel">
+			<div class="leftPanel">
+				Username:<br> <input id="loginUsernameField" type="text"
+					name="username" required><br> Password:<br> <input
+					id="loginPasswordField" type="password" name="password" required><br>
+				<button onclick="validateAccount()">Login</button>
+				<br>
+				<label id="errorLabel"></label>
+			</div>
+			<div class="loginVerticalDivider"></div>
+
+			<div class="rightPanel">
+				RESTful Web Service implementation of a Two-Party Trusted
+				Initializer for an additive multiplication Secure Multiparty
+				Computation protocol written in Java. To enact many of the protocols
+				that exist with Secure Multiparty Computations in the field of
+				Cybersecurity, one must have shares of initialized random values
+				spread throughout everyone who wants to compute, however this
+				Trusted Initializer of the shared random values often does not
+				exist. Our Trusted Initializer takes care of the creation of the
+				random shares of values within a finite field ​F​ for two players. <br>
+				<a href="registration.html" style="float: right; margin-top: 1em">Register for an account</a>
+				
+			</div>
+		</div>
+		
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Trusted Initializer</title>
+<link rel="stylesheet" href="index.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="serviceCaller.js"></script>
+</head>
+<body>
+	<div class="serviceTitle">Trusted Initializer</div>
+
+	<div class="registrationMainPanel">
+		<div class="topPanel">
+			<h1>Register</h1>
+		</div>
+		<hr>
+		<div class="bottomPanel">
+			<div class="leftPanel">
+				Username:<br> <input id="registrationUsernameField" type="text"
+					name="username" required><br> Password:<br> <input
+					id="registrationPasswordField" type="password" name="password" required><br>
+				
+				Confirm Password:<br>
+				<input id="registrationConfirmPasswordField" type="password"
+					name="password" required> <br>
+				<button onclick="registerAccount()">Register</button>
+				<br>
+				<label id="errorLabel"></label>
+			</div>
+			<div class="registrationVerticalDivider"></div>
+			<div class="rightPanel">
+				Username must be between 6 and 14 characters.<br> Username is
+				case insensitive.<br> <br> Password must be between 8 and
+				16 characters.<br> Password is case sensitive.<br> <br>
+				<br>
+				<br> <a href="index.html" style="float: right; margin-top: 1em">Go back to Login</a>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

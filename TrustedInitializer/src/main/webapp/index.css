@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	background: #e2e1e0;
+	font-family: "Verdana";
+}
+
+.serviceTitle {
+	height: 3.5em;
+	background: #00adff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 3.5em;
+}
+
+.loginMainPanel {
+	height: 24em;
+	width: 45em;
+	background: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	
+	margin: 7em auto;
+	padding: 0em 1em 1em 1em;
+}
+
+.registrationMainPanel {
+	height: 29em;
+	width: 45em;
+	background: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	
+	margin: 7em auto;
+	padding: 0em 1em 1em 1em;
+}
+
+.topPanel {
+	height: 4em;
+	width: 44em;
+	vertical-align: middle;
+	line-height: 4em;
+	
+	padding-left: 1em;
+	margin-bottom: 0;
+}
+
+hr {
+	margin: 0 1em;
+}
+
+.leftPanel {
+	height: 85%;
+	width:12em;
+	float: left;	
+	padding-left: 1em;
+	padding-top: 1em;
+	font-size: 1.3em;
+}
+
+input {
+	height: 1.8em;
+	
+	font-size: 1em;
+	margin: 0.6em 0 1em 0;
+}
+
+button {
+	height: 3.5em;
+	width: 7.5em;
+	
+	margin-top: 0.8em;
+}
+
+.loginVerticalDivider {
+	border-left:1px solid #000;
+	height:17em; 
+	float: left;
+	
+	margin: 1em 0 0 1em;
+}
+
+.registrationVerticalDivider {
+	border-left:1px solid #000;
+	height:23em; 
+	float: left;
+	
+	margin: 1em 0 0 1em;
+}
+
+.rightPanel {
+	height: 85%;
+	width: 25em;
+	float: right;	
+	padding-right: 1em;
+	
+	margin-top: 1em;
+	font-size: 1em;
+}
+
+#errorLabel {
+	font-size: 0.6em;
+	color: red;
+}
+
+
+#warningLabel {
+	font-size: 0.6em;
+	color: red;
+	margin-top: 0.3em;
+	
+}
+
+#infoDiv {
+	font-size: 0.8em;
+}
